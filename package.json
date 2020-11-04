@@ -1,6 +1,6 @@
 {
   "name": "@starsoul/deploy",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "deploy files to ecs",
   "main": "index.js",
   "repository": "https://github.com/lijiangwei/deploy.git",
@@ -13,11 +13,14 @@
   "author": "xiaosl",
   "license": "MIT",
   "dependencies": {
+    "@luminati-io/socksv5": "^0.0.7",
     "chalk": "^4.1.0",
     "dayjs": "^1.9.4",
+    "glob": "^7.1.6",
     "ora": "^5.1.0",
     "scp2": "^0.5.0",
-    "ssh2": "^0.8.9"
+    "ssh2": "^0.8.9",
+    "ssh2-sftp-client": "^5.3.1"
   },
   "devDependencies": {}
 }
